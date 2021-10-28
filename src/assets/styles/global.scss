@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0
+}
+.MuiPaper-root{
+  border-radius: 0;
+}
+.MuiPaper-elevation{
+  box-shadow: none
+}
+.MuiButton-root{
+  box-shadow: none;
+  &:hover{
+    box-shadow: none
+  }
+}
