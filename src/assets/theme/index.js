@@ -2,6 +2,9 @@ import { createTheme } from "@mui/material/styles";
 
 const LightThemeConfig = createTheme({
   direction: "ltr",
+  typography: {
+    fontFamily: ["Quicksand", "sans-serif"].join(",")
+  },
   palette: {
     mode: "light",
     primary: {
@@ -15,6 +18,9 @@ const LightThemeConfig = createTheme({
 
 export const DarkThemeConfig = createTheme({
   direction: "ltr",
+  typography: {
+    fontFamily: ["Quicksand", "sans-serif"].join(",")
+  },
   palette: {
     mode: "dark",
     primary: {

@@ -1,0 +1,20 @@
+div.homeBanner{
+  height: 467px;
+  position: relative;
+  img.personImage{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 459.09px;
+    filter: contrast(1.4) ;
+  }
+  div.info{
+    display: flex;
+    flex-direction: column;
+    top:93px;
+    left: 60px;
+    position: absolute;
+    height: 250px;
+    justify-content: space-between;
+  }
+}
